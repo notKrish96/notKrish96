@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-label="Omni-Agent: multimodal AI voice &amp; vision assistant" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif">
+<style>
+.o0{animation:d0 16s ease-in-out infinite}.o1{animation:d1 19s ease-in-out infinite}.o2{animation:d2 22s ease-in-out infinite}
+@keyframes d0{50%{transform:translate(90px,20px)}}@keyframes d1{50%{transform:translate(-110px,-15px)}}@keyframes d2{50%{transform:translate(60px,-25px)}}
+.shine{animation:shine 7s ease-in-out infinite}@keyframes shine{0%,100%{transform:translateX(-400px)}50%{transform:translateX(1200px)}}
+.dot{animation:dot 1.6s ease-in-out infinite}@keyframes dot{50%{opacity:.25}}
+</style>
+<defs>
+<filter id="b1" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+<filter id="b2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+<clipPath id="outer"><rect width="1000" height="200" rx="32"/></clipPath>
+<clipPath id="glass"><rect x="12" y="12" width="976" height="176" rx="26"/></clipPath>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#fff" stop-opacity=".75"/><stop offset=".35" stop-color="#fff" stop-opacity=".12"/>
+<stop offset=".7" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#c4b5fd" stop-opacity=".5"/></linearGradient>
+<linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/></linearGradient>
+<linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#outer)">
+<rect width="1000" height="200" fill="#090a16"/>
+<g filter="url(#b1)" opacity=".45"><circle class="o0" cx="200" cy="20" r="120" fill="#a855f7"/><circle class="o1" cx="650" cy="170" r="140" fill="#2563eb"/><circle class="o2" cx="950" cy="60" r="100" fill="#4f46e5"/></g>
+<g clip-path="url(#glass)">
+<g filter="url(#b2)"><circle class="o0" cx="200" cy="20" r="120" fill="#a855f7"/><circle class="o1" cx="650" cy="170" r="140" fill="#2563eb"/><circle class="o2" cx="950" cy="60" r="100" fill="#4f46e5"/></g>
+<rect x="12" y="12" width="976" height="176" fill="url(#fill)"/>
+<rect x="12" y="12" width="976" height="88.0" fill="#fff" fill-opacity=".035"/>
+<g class="shine"><rect x="0" y="0" width="220" height="200" fill="url(#sh)" transform="skewX(-22)"/></g>
+</g>
+<rect x="12.75" y="12.75" width="974.5" height="174.5" rx="26" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+<path d="M38 14.5H962" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-linecap="round"/>
+</g>
+<text x="48" y="58" fill="#a5b4fc" font-size="13" letter-spacing="3" font-family="'JetBrains Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',ui-monospace,monospace">04</text>
+<text x="48" y="94" fill="#fff" font-size="30" font-weight="700">Omni-Agent</text>
+<text x="48" y="120" fill="#c9cdf0" font-size="15.5">multimodal AI voice &amp; vision assistant</text>
+<rect x="48" y="142" width="63.0" height="26" rx="13" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".18"/><text x="79.5" y="159.5" fill="#e6e8ff" font-size="12" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',ui-monospace,monospace">React</text><rect x="119.0" y="142" width="100.0" height="26" rx="13" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".18"/><text x="169.0" y="159.5" fill="#e6e8ff" font-size="12" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',ui-monospace,monospace">TypeScript</text><rect x="227.0" y="142" width="70.4" height="26" rx="13" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".18"/><text x="262.2" y="159.5" fill="#e6e8ff" font-size="12" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',ui-monospace,monospace">Gemini</text>
+<rect x="866.4" y="40" width="85.6" height="28" rx="14" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".25"/>
+<circle class="" cx="882.4" cy="54" r="4" fill="#c4b5fd"/>
+<text x="894.4" y="58.5" fill="#fff" font-size="12.5" font-weight="600">public</text>
+
+</svg>

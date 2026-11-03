@@ -1,86 +1,46 @@
-<div align="center">
+<a href="https://krishgoel.dev"><img src="./assets/hero.svg" width="100%" alt="Krish Goel. Offensive security, in training."></a>
 
-<img src="./banner.svg" width="100%" alt="Krish Goel — offensive security, in training. Find the flaw. Understand the why. Make the system stronger.">
+<br>
 
-</div>
+Hi, I'm **Krish**, a cybersecurity student at SRM University Delhi-NCR.
+I'm training to become a **penetration tester**, and right now I'm learning networking.
 
-```bash
-$ whoami
-Krish Goel — B.Tech CSE (Cybersecurity), 2nd year, SRM University Delhi-NCR
-$ cat ~/focus
-Training to become a penetration tester.
-I like understanding how systems work, how they break,
-and figuring out how to make them stronger.
-$ pwd
-Delhi, India   →   krishgoel.dev
-```
+### ⌁ stack
 
-## `nmap -sV krish-goel`
+![Python](https://img.shields.io/badge/Python-1e1b4b?style=flat-square&logo=python&logoColor=a5b4fc)
+![SQL](https://img.shields.io/badge/SQL-1e1b4b?style=flat-square&logo=postgresql&logoColor=a5b4fc)
+![Kotlin](https://img.shields.io/badge/Kotlin-1e1b4b?style=flat-square&logo=kotlin&logoColor=a5b4fc)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-1e1b4b?style=flat-square&logo=kalilinux&logoColor=a5b4fc)
+![Android](https://img.shields.io/badge/Android-1e1b4b?style=flat-square&logo=android&logoColor=a5b4fc)
 
-```
-Nmap scan report for krish-goel
-Host is up. Curious, and getting faster.
+**learning now** &nbsp;`nmap` `wireshark` `bettercap` `bash` `c` &nbsp;·&nbsp; **exploring** &nbsp;`metasploit` `javascript`
 
-PORT      STATE          SERVICE       VERSION
-# languages
-8000/tcp  open           python        fundamentals solid, building daily
-5555/tcp  open           kotlin        project experience
-3306/tcp  open           sql           comfortable with fundamentals
-31337/tcp open|filtered  c             learning
-22/tcp    open|filtered  bash          learning
-3000/tcp  filtered       javascript    exploring
-# security tooling
-9929/tcp  open|filtered  nmap          learning
-2002/tcp  open|filtered  wireshark     learning
-4444/tcp  filtered       metasploit    exploring
-8081/tcp  open|filtered  bettercap     learning
-# systems
-1/tcp     open           kali-linux    hands-on
-445/tcp   open           windows-11    comfortable
-5554/tcp  open           android       app development
+### ⌁ projects
 
-# open = used in real work  ·  open|filtered = learning now  ·  filtered = exploring
-```
+<img src="./assets/p-avpe.svg" width="100%" alt="AVPE: AI that triages security findings and ranks what to fix first. In development.">
 
-## `ls ./projects`
+<img src="./assets/p-festflow.svg" width="100%" alt="FestFlow: tech-fest platform with registration, QR check-in and live results. Built with Akshay, Amrit and Swastik.">
 
-The full set, including the hidden ones, lives at **[krishgoel.dev](https://krishgoel.dev)**.
+<a href="https://github.com/notKrish96/Canvas-nova"><img src="./assets/p-canvas.svg" width="100%" alt="Canvas Nova: Android wallpaper app. In development."></a>
 
-| project | what it is | status |
-| --- | --- | --- |
-| **AVPE** | Autonomous Vulnerability Prioritization Engine — AI that triages security findings and prioritizes what to fix first | in development |
-| **FestFlow** | Tech-fest platform: registration, QR check-in, automatic waitlists, judge scoring, live results | built |
-| **[Canvas Nova](https://github.com/notKrish96/Canvas-nova)** | Android wallpaper app aggregating Wallhaven, Reddit & NASA APOD | in development |
-| **[Omni-Agent](https://github.com/notKrish96/Omni-Agent)** | Multimodal AI voice & vision assistant (React · TypeScript · Gemini) | public |
-| **NULL//UTILITY** | 150+ gloriously useless tools — a parody Windows desktop app | in development |
+<a href="https://github.com/notKrish96/Omni-Agent"><img src="./assets/p-omni.svg" width="100%" alt="Omni-Agent: multimodal AI voice and vision assistant."></a>
 
-## `cat ./roadmap`
+<img src="./assets/p-null.svg" width="100%" alt="NULL//UTILITY: 150+ gloriously useless tools in a parody Windows app. In development.">
 
-```
-[#] Networking fundamentals            <- studying now
-[ ] Linux & Bash
-[ ] Python for security
-[ ] Web security          (OWASP Top 10, Burp Suite)
-[ ] System & network security   (Active Directory, enumeration)
-[ ] Exploitation          (Metasploit, privesc, post-exploitation)
-[ ] uid=0 — security engineering // offensive + defensive (purple team)
-```
+### ⌁ path
 
-## `./proof`
+`networking` **◀ here** → `linux` → `python` → `web` → `sys/net` → `exploitation` → `uid=0`
 
-- 🏆 **CodeX 3.0 — Hack Arena Finalist** · Hackingly × PIET, Haryana · Oct 2026
+🏆 **CodeX 3.0 Hack Arena — Finalist** · Hackingly × PIET · Oct 2026
 
-## `cat ./contact`
+<br>
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/krishgoel.dev-ff2340?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://krishgoel.dev)
-[![Email](https://img.shields.io/badge/Email-efe9df?style=for-the-badge&logo=gmail&logoColor=0a0810)](mailto:krishgoel96@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krishgoel96/)
+[![krishgoel.dev](https://img.shields.io/badge/krishgoel.dev-6d28d9?style=for-the-badge)](https://krishgoel.dev)
+[![Email](https://img.shields.io/badge/Email-1e1b4b?style=for-the-badge&logo=gmail&logoColor=white)](mailto:krishgoel96@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-2563eb?style=for-the-badge)](https://www.linkedin.com/in/krishgoel96/)
+
+<sub>3 flags are hidden on krishgoel.dev. think you can get root?</sub>
 
 </div>
-
-## `# there's more`
-
-> Three flags are hidden on **[krishgoel.dev](https://krishgoel.dev)**.
-> `view source` is recon. Think you can get `root`?
